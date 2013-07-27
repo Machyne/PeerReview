@@ -1,0 +1,11 @@
+/* CSS crunched with Crunch - http://crunchapp.net/ */
+body{overflow:hidden;font-family:Helvetica,Arial,sans-serif;font-weight:bold;background:#a0a4ac;color:#222;}body #title_line{display:block;background:#000000 url('img/navy_blue.png');padding:20px;padding-left:50px;padding-bottom:0px;top:0;margin-top:-16px;margin-left:-16px;margin-right:-16px;border-bottom:3px solid #aaa;}body #title_line #title{display:inline;font-family:Helvetica,Arial,sans-serif;font-style:italic;font-weight:bold;font-size:40pt;color:#eee;}
+body #title_line .status{-webkit-transition:opacity 2s ease;-moz-transition:opacity 2s ease;-o-transition:opacity 2s ease;transition:opacity 2s ease;font-style:italic;font-weight:bold;display:inline;font-size:30pt;color:#4e5;opacity:0.0;}
+body #title_line .active{opacity:1.0;}
+#controls{background-image:url('img/billie_holiday.png');background-repeat:repeat;padding-top:20px;padding-left:0px;width:320px;height:100%;margin-top:0px;margin-left:-10px;padding-bottom:1200px;position:relative;top:0;bottom:0;left:0;right:0;z-index:1;line-height:2.5;}#controls td{text-align:right;}
+#controls td+td{text-align:left;padding-left:10px;}
+#controls label{display:block;color:#5a5a5a;}#controls label:hover{color:#000;}
+#editor{-webkit-transition:left 0.5s ease;-moz-transition:left 0.5s ease;-o-transition:left 0.5s ease;transition:left 0.5s ease;margin:0;margin-top:75px;position:absolute;top:0;bottom:0;left:320px;right:0;z-index:2;}#editor.small{left:320px;}
+#editor.big{left:0;}
+#but{-webkit-transition:0.5s ease;-moz-transition:0.5s ease;-o-transition:0.5s ease;transition:0.5s ease;right:0;z-index:3;cursor:pointer;}#but.hide{margin:0;position:absolute;top:50%;bottom:;left:325px;}
+#but.show{transform:rotate(180deg);-ms-transform:rotate(180deg);-webkit-transform:rotate(180deg);margin:0;position:absolute;top:50%;bottom:;left:0;}
